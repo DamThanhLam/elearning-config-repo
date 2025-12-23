@@ -1,1 +1,1 @@
-spring.mongodb.uri=mongodb+srv://ldamthanh62_db_user:${PASSWORD_MONGODB}@cluster0.tg8mcdl.mongodb.net/elearning?appName=Cluster0
+spring.mongodb.uri=mongodb+srv://ldamthanh62:${PASSWORD_MONGODB}@cluster0.tg8mcdl.mongodb.net/elearning?appName=Cluster0
