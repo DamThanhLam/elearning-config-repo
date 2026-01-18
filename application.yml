@@ -21,8 +21,6 @@ spring:
   redis:
     cluster:
       nodes: 127.0.0.1:12000
-  config:
-    import: optional:configserver:http://localhost:8888
 eureka:
     client:
         serviceUrl:
