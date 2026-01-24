@@ -14,9 +14,11 @@ spring:
     mongodb:
       auto-index-creation: true
     redis:
-      host: localhost 
-      port: 12000
+      host: redis-13074.c292.ap-southeast-1-1.ec2.cloud.redislabs.com
+      port: 13074
       timeout: 5s
+      password: ${PASSWORD_REDIS}
+      username: ${USERNAME_REDIS}
   mongodb:
     uri: mongodb+srv://ldamthanh62:${PASSWORD_MONGODB}@cluster0.tg8mcdl.mongodb.net/elearning?appName=Cluster0
 eureka:
